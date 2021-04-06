@@ -31,7 +31,7 @@ f = open('SeleniumJFFD.txt', 'w')
 print ("OPEN FILE")
 f.write('OPEN FILE \n')
 browser = webdriver.Firefox()  
-browser.get("https://www.justfoodfordogs.com/#") #JFFD WEBSITE
+browser.get("https://www.JFFD.com/#") #JFFD WEBSITE
 time.sleep(15)
 browser.save_screenshot('/Users/scott/Desktop/SCREENSHOTS/ScreenShot1a.png')
 browser.find_element_by_css_selector("button.affirm:nth-child(4)").click() #COOKIES ACCEPTED
